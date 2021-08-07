@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <title>EPAC-BIT MESRA</title>
+    <meta
+      name="viewport"
+      content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no"
+    />
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link href="style.css" rel="stylesheet" />
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <!----Header-->
+    <section class="header">
+      <nav>
+        <a href="index.html">
+          <img src="images/logo-removebg-preview.png" alt="" />
+        </a>
+        <div class="nav-links" id="nav-links">
+          <i class="fa fa-times" onclick="hidemenu()"></i>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="teams.html">Our Team</a></li>
+            <li><a href="Alumni.html">Alumni</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+          </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showmenu()"></i>
+      </nav>
+      <div class="text-box">
+        <h1>EPAC BIT MESRA</h1>
+        <p>Environment Protection and Awareness Club</p>
+        <!-- <a href="" class="hero-btn">Visit us to know more</a> -->
+      </div>
+    </section>
+
+    <!-----About---->
+    <section class="about">
+      <h1>About Us</h1>
+      <p>
+        The Environment Protection and Awareness Club of BIT Mesra, or EPAC is the technical club of the college, whose sole motive is to instigate the students of the campus to proactively contemplate about the detrimental effects caused by human activities, on our environment. We at EPAC, as a student body aim at, improvising the existing systems which lay in the favor of nature. We have initiated a plethora of initiatives to retain the lush greenery of the campus and to create awareness among the students regarding the repercussions of an unhealthy environment. With an objective to nurture nature in return to what all it has done for us; we selflessly carry out activities with paramount dedication and unequivocal semblance of ideas to save what has been ours for so many years.
+       <br> We believe change comes one step at a time, and this change can be brought upon by the young minds of the globe. Thus, we believe in bringing out the best from the students at the college, while developing them as responsible and aware inhabitants of Earth.
+      </p>
+    </section>
+
+    <!-----Events---->
+    <div class="ef">
+      <section class="events">
+        <h1>Our Events</h1>
+
+        <div class="row">
+          <div class="elist">
+            <a href="https://www.facebook.com/147788775311285/posts/4025501860873271/"><img src="images/event1.jpg" alt="" /></a>
+          </div>
+          <div class="elist">
+            <a href="https://www.facebook.com/epacbitmesra/"><img src="images/event2.jpg" alt="" /></a>
+          </div>
+          <div class="elist">
+            <a href="https://www.facebook.com/epacbitmesra/"><img src="images/event3.jpg" alt="" /></a>
+          </div>
+        </div>
+      </section>
+    </div>
+    <!-----Message from Faculty---->
+    <section class="message">
+      <h1>Message from faculty advisor</h1>
+      <div class="content">
+        <img src="images/facadv.jpg" class="hp1" />
+        <img src="images/facadv1.jpg" class="hp2" />
+
+        <p>
+          It is a matter of honor and immense pleasure that destiny has given me a chance to welcome you to the
+          institute. As the part of such a great heritage called Birla Institute of Technology, Mesra, I take
+          honour and I am privileged to work in this prodigious organization that has been remarkable since centuries.
+          
+
+          BIT Mesra is intended to improve the education to best of its quality through latest learning technologies
+          with concurrent academia progress monitoring mechanism. Co-currilcular programs are the inseparable part of 
+          learning curricula in today's progressive generation. BIT Mesra sturdily chose to equip the nation’s 
+          largest working-age population with knowledge and life skills.  
+          
+         Hereby I welcome you all for joining this esteemed University and wishing you all the best for
+         your future endeavours.
+        </p>
+      </div>
+    </section>
+
+    <!-- basic-contact -->
+    <div class="ctab">
+      <section class="cta">
+        <h1>
+          Curious about what we do?
+        </h1>
+        <a href="contact.html" class="hero-btn">Contact Us</a>
+        <div class="social-links c">
+          <a href="https://www.facebook.com/epacbitmesra/">
+            <span class="fa fa-facebook"></span>
+          </a>
+          <a href="https://in.linkedin.com/company/epac-bitmesra">
+            <span class="fa fa-linkedin"></span>
+          </a>
+          <a href="https://www.instagram.com/epac.bitmesra/?hl=en">
+            <span class="fa fa-instagram"></span>
+          </a>
+        </div>
+      </section>
+    </div>
+
+    <div class="cr">
+      <span class="copyright">Copyright © EPAC- BIT Mesra 2021 </span>
+      <p>Reach Out to the Developer</p>
+      <div class="social-links">
+        <a href="https://www.linkedin.com/in/ketan-raj/">
+          <span class="fa fa-linkedin"></span>
+        </a>
+      </div>
+    </div>
+
+    <script>
+      document.addEventListener("contextmenu", function (e) {
+        e.preventDefault();
+      });
+      var navLinks = document.getElementById("nav-links");
+      function showmenu() {
+        navLinks.style.right = "0";
+      }
+      function hidemenu() {
+        navLinks.style.right = "-200px";
+      }
+    </script>
+  </body>
+</html>
